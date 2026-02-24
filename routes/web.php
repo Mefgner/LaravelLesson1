@@ -22,15 +22,17 @@ Route::post('/results', [FibonacciController::class, 'processForm']);
 //     $a = 0;
 //     $b = 1;
 
+//     $result = [0, 1];
     
 //     for ($i = 2; $i <= $n; $i++) {
 //         $next = $a + $b;
+//         $result[] = $next;
 //         $a = $b;
 //         $b = $next;
 //     }
 
 //     $render_data = [
-//         'finumber' => $b
+//         'finumbers' => $result,
 //     ];
 
 //     return view('fi.results', $render_data);
